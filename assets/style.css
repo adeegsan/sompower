@@ -1,0 +1,52 @@
+/* Custom CSS 
+*@author Janagale
+*@Sompower
+* color #fedf00;
+*/
+
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+/* top nav */
+
+
+
+
+/* Home Slider */
+
+.mission img {
+  width: 30%;
+  margin: auto;
+}
+
+#home-slider {
+  margin-right: 0;
+}
+
+/* Carousel overlay */
+.carousel-item:after {
+  content: "";
+  display: block;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: rgba(0, 0, 0, 0.4);
+}
+
+
+.serv-img-1,
+.serv-img-2,
+.serv-img-3 {
+  width: 40% !important;
+  margin: auto;
+  margin-top: 12px;
+  border: 1px solid #fdde09;
+  padding: 5px;
+  border-radius: 7%;
+
+}
