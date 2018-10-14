@@ -1,7 +1,7 @@
 /* Custom CSS 
 *@author Janagale
 *@Sompower
-* color #fedf00;
+* color #ffc107;
 */
 
 
@@ -12,7 +12,32 @@ body {
 
 /* top nav */
 
+.navbar-brand img {
+  width: 50%;
+  height: 20%;
+}
 
+nav.navbar,
+.dropdown-menu {
+  background: #ffc107;
+}
+
+a.nav-link:hover {
+  color: #d2c9c9 !important;
+}
+
+
+
+a.nav-link,
+.dropdown-menu a {
+  color: #ffffff !important;
+  font-size: 1.2rem;
+
+}
+
+a.dropdown-item:hover {
+  color: #ffc107 !important;
+}
 
 
 /* Home Slider */
@@ -45,7 +70,7 @@ body {
   width: 40% !important;
   margin: auto;
   margin-top: 12px;
-  border: 1px solid #fdde09;
+  border: 1px solid #ffc107;
   padding: 5px;
   border-radius: 7%;
 
@@ -159,7 +184,7 @@ body {
 }
 
 .btn-card:hover {
-  background: orange;
+  background: #ffc107;
 }
 
 a.btn-card {
