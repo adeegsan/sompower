@@ -341,7 +341,6 @@ a.btn-card {
 	width: 40px;
 	height: 36px;
 	cursor: pointer;
-	background-color:  #7955486b;
 	border-radius: 10%;
 	font-size: 20px;
 	color: #ffffff;
@@ -353,7 +352,7 @@ a.btn-card {
 }
 
 .footer-bottom .footer-icons a:hover{
-  background: #d2c9c9;
+  background: #313131 !important;
 }
 
 /* If you don't want the footer to be responsive, remove these media queries */
