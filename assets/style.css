@@ -8,6 +8,7 @@
 body {
   margin: 0;
   padding: 0;
+  background: #F1F3FA;
 }
 
 /* top nav */
@@ -63,6 +64,10 @@ a.dropdown-item:hover {
   background: rgba(0, 0, 0, 0.4);
 }
 
+
+.heading {
+  color: #ffc107 !important;
+}
 
 .serv-img-1,
 .serv-img-2,
@@ -194,6 +199,7 @@ a.btn-card {
 
 /* End card section */
 
+/* About Page */
 
 
 
