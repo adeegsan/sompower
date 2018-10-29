@@ -86,6 +86,37 @@ a.dropdown-item:hover {
 
 /* Branches */
 
+.jumbotron-fluid {
+  
+    background-image: url('./img/banner1.jpg'); 
+    background-color: #ccc;
+    background-position: center; 
+    background-repeat: no-repeat;
+    background-size: cover;
+  
+}
+
+.b-card {
+  transition: all ease-in 0.3s;
+}
+
+.b-card ul li {
+  font-size: 1.2em;
+}
+.b-card ul li>i {
+ color: #64625b;
+ padding-right: 5px
+}
+
+.b-card:hover{
+  box-shadow: 1px 1px 10px 10px #ccc;
+}
+
+.b-card:hover .card-header {
+  background: #ccc !important;
+  color: #fff;
+}
+
 
 /* card details start  */
 @import url('https://fonts.googleapis.com/css?family=Raleway:400,400i,500,500i,600,600i,700,700i,800,800i,900,900i|Roboto+Condensed:400,400i,700,700i');
