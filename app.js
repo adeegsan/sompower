@@ -1,23 +1,28 @@
 
 let branches = [
-  ["26-June", "Xaruntu waxay ku taal Saldhiga Ibrahim Koodbur agtiisa", 523527, 95281772],
-  ["Waaheen", "Xaruntu waxay ku Talaal Suuqa Waaheen Qaybta Bari", 524334, 95281772],
-  ["New Hargeisa", "Xaruntu Waxay ku xigtaa Kaalinta Daarasalaam ee New Hargeisa", 510578, 95281772],
-  ["M. Haaruun", "Tilmaanta Xarunta: Dhinaca Bari ee Schoolka Macalin Harun", 540967, 95281772],
+  ["26-June", "Xaruntu waxay ku taal isgoyska togdheer koonfurta haldoor Hospital", 523527, 520278],
+  ["Waaheen", "Xaruntu waxay ku Taal dhismaha theatre-ka hargeisa", 524334],
+  ["New Hargeisa", "Xaruntu Waxay kasoo horjeeda kaalinta Al-shukri", 510578, 521071,],
+  ["M. Haaruun", "Tilmaanta Xarunta: Dhinaca Waqooyi ee Saldhiga Macalin Harun", 540967, ],
   ["M. Mooge", "Xaruntu waxay ku taal dhinaca Galeeb ee Saldhiga M. Mooge", 569374, 95281772],
-  ["Ambassador", "Xaruntu waxay kutaal kasoo horjeedka Hotel Ambassador", 569260, 95281772],
-  ["Dumbuluq", "Xaruntu waxay ku taal dhismaha Dhakhtark Edna Adan Hospital", 569036, 95281772],
-  ["Iftin", "Xaruntu waxay ku taal dhismaha Dhakhtark Edna Adan Hospital", 565885, 95281772],
-  ["Isha-Borama", "Xaruntu waxay ku taal Isgoyska Jaamacada Hargeisa Looga Laabto", 525706, 95281772],
-  ["Faluuja", "Xaruntu waxay ku taal Xaafada Faluuja, Saldhiga Xaafada agtiisa", 4101600, "063-4101600"],
-  ["Faarax Nuur", "Xaruntu waxay ku taal Isgoyska Siinay, dhinaca bari ee Laamida", 565060, 95281772],
-  ["Jigjiga yar", "Xaruntu waxay ku taal Isgoyska, Kaalinta National Dhinaceeda Bari", 517460, 95281772],
-  ["Gantaalaha", "Xaruntu waxay ku taal Jaamacada Admas, Fresh compus agtiisa ", 572477, 95281772],
-  ["Salaama", "Xaruntu waxay udhaw dahay Schoolka Salaama dhinaciisa Galbeed ", 570903, 95281772],
+  ["Ambassador", "Xaruntu waxay kutaal kasoo horjeedka Hotel Ambassador", 569260],
+  ["Dumbuluq", "Xaruntu waxay ku taal agagaar-ka Iskuulka M.A.ALI", 569036],
+  ["Iftin", "Xaruntu waxay ku taal kasoo horjeedka Hargeisa Staduim", 565885],
+  ["Isha-Borama", "Xaruntu waxay ku taal koonfurta Isgoyska Jaamacada Hargeisa Looga Laabto", 525706],
+  ["Faluuja", "Xaruntu waxay ku taal Xaafada Faluuja, Saldhiga Xaafada agtiisa", 4101600],
+  ["Faarax Nuur", "Xaruntu waxay ku taal Isgoyska Siinay, dhinaca bari ee Laamida", 565060],
+  ["Jigjiga yar", "Xaruntu waxay ku taal agagaar-ka ina bakeeri", 517460],
+  ["Gantaalaha", "Xaruntu waxay ku taal Jaamacada Admas, Fresh compus agtiisa ", 572477],
+  ["Salaama", "Xaruntu waxay ka kasoo horjeeda masjidka Salaam ama koonfurta salidhiga IB-koodbuur ", 570903],
   ["Sheedaha", "Xaruntu waxay ku taal Xaafada Sheedaha, Kaalinta Barwaaqo agteeda", 517963, 95281772],
-  ["Kirix", "Xaruntu waxay ku taal Xaafada ina Kirix, Dhinaca Bari ee Saldhiga", 538499, 95281772],
-  ["Xero-Awr", "Xaruntu waxay ku taal Dhismaha Business Center Dhinacisa Galbeed", 523393, 95281772],
-  ["Daloodho", "Xaruntu waxay ku taal Xaafada Daloodho, Kasoo horjeedka Dahabshiil", 517963, 95281772]
+  ["Kirix", "Xaruntu waxay ku taal Kirix area wadada 150-ka", 538499],
+  ["Sheeddaha", "Xaruntu waxay ku taal Koonfur-ta Power Station-ka Sheedaha", 517963],
+  ["Xero-Awr", "Xaruntu waxay ku taal Isgoyska xero awr ama kasoo horjeed-ka Gamuur Furniture", 523393],
+  ["Daloodho", "Xaruntu waxay ku taal Xaafada Daloodho,Start Box area", 533445],
+  ["Suuqa", "Xaruntu waxay ku taal galbeed-ka geerash aw-cali", 521042],
+  ["Kililka", "Xaruntu waxay ku taal Istaanka basaska kililka", 540206],
+  ["Gebiley", "Xaruntu waxay ku taal Mgaalda gebiley", 625048],
+  ["Wajaale", "Xaruntu waxay ku taal Magaalda Wajaale", 4322266]
 ];
 
 let element = branches.map((branch) => {
@@ -31,9 +36,9 @@ let element = branches.map((branch) => {
         <div class="card-body">
           <p class="">{branch[1]}</p>
           <h6>Kala Xidhiidh <i class="fas fa-phone-volume"></i></h6>
-          <ul class="list-group text-left list-group-flush">
+          <ul class="list-group text-center list-group-flush">
             <li class="list-group-item"><i class="fas fa-phone-square"></i> {branch[2]} </li>
-            <li class="list-group-item"><i class="fas fa-mobile-alt"></i> {branch[3]}</li>
+            { /* <li class="list-group-item"><i class="fas fa-mobile-alt"></i> {branch[3]}</li> */}
           </ul>
         </div>
       </div>
