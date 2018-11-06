@@ -30,7 +30,7 @@ let element = branches.map((branch) => {
   return (
     <div class="col-md-4 col-sm-6 col-lg-3 mb-5">
       <div class="card b-card text-center">
-        <div class="card-header bg-warning">
+        <div class="card-header bg-green">
           <h5 class="card-title">Xarunta  {branch[0].toUpperCase()}</h5>
         </div>
         <div class="card-body">
