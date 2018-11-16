@@ -91,7 +91,7 @@ a.dropdown-item:hover {
 
 /* Branches */
 
-.jumbotron-fluid {
+.branches {
 
     background-image: url('./img/banner1.jpg');
     background-color: #ccc;
@@ -99,6 +99,10 @@ a.dropdown-item:hover {
     background-repeat: no-repeat;
     background-size: cover;
 
+}
+
+.branches .jumbotron-fluid {
+    background: #21212159;
 }
 
 .b-card {
@@ -109,7 +113,7 @@ a.dropdown-item:hover {
     font-size: 1.2em;
 }
 
-.b-card ul li > i {
+.b-card ul li>i {
     color: #64625b;
     padding-right: 5px
 }
@@ -122,6 +126,18 @@ a.dropdown-item:hover {
     background: #ccc !important;
     color: #fff;
 }
+
+
+/* projects */
+.projects {
+    background-image: url('./img/electricity-banner.png');
+    background-color: #ccc;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/* projects end */
 
 
 /* card details start  */
@@ -282,7 +298,7 @@ a.btn-card {
 /* Footer links */
 
 .footer-bottom .footer-links {
-    color: #795548;
+    color: #ebebeb;
     margin: 20px 0 12px;
     padding: 0;
 }
@@ -295,7 +311,7 @@ a.btn-card {
 }
 
 .footer-bottom .footer-company-name {
-    color: #795548;
+    color: #ebebeb;
     font-size: 14px;
     font-weight: normal;
     margin: 0;
@@ -309,7 +325,7 @@ a.btn-card {
 
 .footer-bottom .footer-center i {
     background-color: #c7b8b2;
-    color: #795548;
+    color: #ebebeb;
     font-size: 25px;
     width: 40px;
     height: 40px;
@@ -335,7 +351,7 @@ a.btn-card {
 
 .footer-bottom .footer-center p {
     display: inline-block;
-    color: #795548;
+    color: #ebebeb;
     vertical-align: middle;
     margin: 0;
 }
@@ -348,7 +364,7 @@ a.btn-card {
 }
 
 .footer-bottom .footer-center p a {
-    color: #795548;
+    color: #ebebeb;
     text-decoration: none;
     ;
 }
@@ -362,7 +378,7 @@ a.btn-card {
 }
 
 .footer-bottom .footer-company-about {
-    color: #795548;
+    color: #ebebeb;
     font: normal 15px sans-serif;
     font-size: 13px;
     font-weight: normal;
@@ -371,7 +387,7 @@ a.btn-card {
 
 .footer-bottom .footer-company-about span {
     display: block;
-    color: #795548;
+    color: #ebebeb;
     font-size: 14px;
     font-weight: bold;
     margin-bottom: 20px;
